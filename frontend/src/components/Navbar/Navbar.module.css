@@ -1,0 +1,47 @@
+/* Navbar.module.css */
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #343a40; /* Dark background color */
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem; /* Space between links */
+  margin: 0; /* Ensure no extra margin */
+  padding: 0; /* Ensure no extra padding */
+}
+
+.navLinks li {
+  margin: 0; /* Ensure no extra margin */
+}
+
+.navLinks a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  display: flex; /* Ensure links are displayed as flex items */
+  align-items: center; /* Center items vertically */
+}
+
+.navLinks a:hover {
+  background-color: #495057; /* Lighter color on hover */
+}
